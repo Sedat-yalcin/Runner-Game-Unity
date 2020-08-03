@@ -18,7 +18,7 @@ public class PlayerManager : MonoBehaviour
     {
         Debug.Log("Oyun Başladı");
         gameOver = false;
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         
     }
 
@@ -43,6 +43,7 @@ public class PlayerManager : MonoBehaviour
         if (SwipeManager.tap)
         {
             isGameStarted = true;
+            Time.timeScale = 1;
             Destroy(startingText);
 
         }

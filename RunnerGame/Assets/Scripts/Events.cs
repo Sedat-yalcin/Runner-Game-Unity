@@ -1,15 +1,18 @@
 ﻿using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Events : MonoBehaviour
 {
-   public void ReplayGame()
+    public GameObject startingText;
+    public void ReplayGame()
     {
         Debug.Log("Oyun yeniden başlasın");
-        
-        SceneManager.LoadScene("Level");
+       
+       // Time.timeScale = 0;
+       // Destroy(startingText);
 
-        
+        SceneManager.LoadScene("Level");
 
     }
 
