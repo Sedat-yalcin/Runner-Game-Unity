@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3646051617771306684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3646051617771306685}
+  - component: {fileID: 3646051617771306686}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3646051617771306685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3646051617771306684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3646051617771306686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3646051617771306684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6ba04387a349eb48b551a6db0d0e9e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: 2640d6a092756eb44a11a2c7e045884f, type: 3}
+    volume: 0.2
+    source: {fileID: 0}
+    loop: 1
+  - name: PickUpCoin
+    clip: {fileID: 8300000, guid: d59ae386498c8ff48b17a1acde76a3e7, type: 3}
+    volume: 0.3
+    source: {fileID: 0}
+    loop: 0
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 28f4b2d6da06a81489240b44b58bc3ff, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: 28e45060984a51546878dafecb0c6597, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
